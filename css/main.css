@@ -1,0 +1,78 @@
+/* MOB. View */
+body {
+    background-color: black;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input {
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 9px 0 10px 9px;
+    width: 11rem;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+}
+
+.lb-data .lb-details {
+    margin-top: 20px;
+    
+}
+
+.lb-data .lb-close {
+    margin-top: 20px;
+}
+
+.lightboxOverlay {
+    background-color: #9f75c244;
+}
+
+/* TAB. View */
+@media (min-width: 768px) {
+
+    input {
+        margin-top: 20px;
+        width: 18rem;
+    }
+
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    img{
+        margin:0
+    }
+    
+    .image {
+        display: inline-block;
+        margin: 20px;
+    }
+}
+
+/* DES. View */
+@media (min-width: 1024px) {
+
+    input {
+        max-width: 1024px;
+        margin-top: 25px;
+        width: 26rem;
+    }
+
+    .container {
+        max-width: 1024px;
+    }
+
+    .lb-data .lb-caption {
+        font-size: 13px;
+    }
+}
